@@ -1,3 +1,4 @@
+import controllers.NCController;
 import util.Path;
 
 import static spark.Spark.get;
@@ -7,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
         staticFileLocation("/public");
 
-        get(Path.Web.getHOME(), null);
+        get(Path.Web.getHOME(), NCController.toWords);
     }
 }
