@@ -1,3 +1,4 @@
+import controllers.CController;
 import controllers.NCController;
 import util.Path;
 
@@ -9,5 +10,6 @@ public class Main {
         staticFileLocation("/public");
 
         get(Path.Web.getHOME(), NCController.toWords);
+        get(Path.Web.getADD(), CController.calculate);
     }
 }
