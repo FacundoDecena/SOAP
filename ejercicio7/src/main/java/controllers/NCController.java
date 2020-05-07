@@ -16,7 +16,7 @@ import java.util.HashMap;
 public class NCController {
     public static Route toWords = (Request request, Response response) -> {
         HashMap<String, Object> model = new HashMap<>();
-        model.put("response", convert(BigInteger.valueOf(8)));
+        model.put("response", convert(BigInteger.valueOf(7)));
         return new VelocityTemplateEngine().render(new ModelAndView(model, Path.Template.LAYOUT));
     };
 
