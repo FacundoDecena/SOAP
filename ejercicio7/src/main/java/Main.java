@@ -1,4 +1,5 @@
 import controllers.CController;
+import controllers.CalculadoraController;
 import controllers.NCController;
 import util.Path;
 
@@ -9,7 +10,10 @@ public class Main {
     public static void main(String[] args) {
         staticFileLocation("/public");
 
-        get(Path.Web.getHOME(), NCController.toWords);
-        get(Path.Web.getADD(), CController.calculate);
+        //get(Path.Web.getHOME(), NCController.toWords);
+        get(Path.Web.getADD(), CalculadoraController.addition);
+        get(Path.Web.getDIV(), CalculadoraController.division);
+        get(Path.Web.getMUL(), CalculadoraController.multiplication);
+        get(Path.Web.getSUB(), CalculadoraController.subtraction);
     }
 }

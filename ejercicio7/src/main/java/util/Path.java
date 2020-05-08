@@ -7,6 +7,9 @@ public class Path {
         @Getter public static final String API = "/api/";
         @Getter public static final String HOME = "/home";
         @Getter public static final String ADD = "/suma";
+        @Getter public static final String DIV = "/division";
+        @Getter public static final String MUL = "/multiplicacion";
+        @Getter public static final String SUB = "/resta";
     }
 
     public static class Template {
