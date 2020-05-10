@@ -40,30 +40,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93283291-8392-4ee0-95a0-ba428b7382cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculadora/CalculadoraWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/CalculadoraWS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/Addition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/AdditionResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/CalculadoraWS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/CalculadoraWS_Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/Division.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/DivisionResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/Multiplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/MultiplicationResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/ObjectFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/Substraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/SubstractionResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/package-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculadora/servicioCalculadora.wsdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/example/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spark/template/velocity/VelocityTemplateEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Path$Template.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Path$Web.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Path.class" beforeDir="false" />
-    </list>
+    <list default="true" id="93283291-8392-4ee0-95a0-ba428b7382cc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +82,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -118,6 +107,9 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -139,12 +131,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1737" y="186" width="697" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589140191526">
