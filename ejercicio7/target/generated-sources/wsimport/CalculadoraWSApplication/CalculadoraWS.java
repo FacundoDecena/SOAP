@@ -33,10 +33,28 @@ public interface CalculadoraWS {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-    @RequestWrapper(localName = "substraction", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Substraction")
-    @ResponseWrapper(localName = "substractionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.SubstractionResponse")
-    @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/substractionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/substractionResponse")
-    public String substraction(
+    @RequestWrapper(localName = "addition", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Addition")
+    @ResponseWrapper(localName = "additionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.AdditionResponse")
+    @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/additionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/additionResponse")
+    public String addition(
+        @WebParam(name = "intA", targetNamespace = "")
+        int intA,
+        @WebParam(name = "intB", targetNamespace = "")
+        int intB);
+
+    /**
+     * 
+     * @param intB
+     * @param intA
+     * @return
+     *     returns java.lang.String
+     */
+    @WebMethod
+    @WebResult(name = "result", targetNamespace = "")
+    @RequestWrapper(localName = "division", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Division")
+    @ResponseWrapper(localName = "divisionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.DivisionResponse")
+    @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/divisionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/divisionResponse")
+    public String division(
         @WebParam(name = "intA", targetNamespace = "")
         int intA,
         @WebParam(name = "intB", targetNamespace = "")
@@ -69,28 +87,10 @@ public interface CalculadoraWS {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-    @RequestWrapper(localName = "addition", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Addition")
-    @ResponseWrapper(localName = "additionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.AdditionResponse")
-    @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/additionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/additionResponse")
-    public String addition(
-        @WebParam(name = "intA", targetNamespace = "")
-        int intA,
-        @WebParam(name = "intB", targetNamespace = "")
-        int intB);
-
-    /**
-     * 
-     * @param intB
-     * @param intA
-     * @return
-     *     returns java.lang.String
-     */
-    @WebMethod
-    @WebResult(name = "result", targetNamespace = "")
-    @RequestWrapper(localName = "division", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Division")
-    @ResponseWrapper(localName = "divisionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.DivisionResponse")
-    @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/divisionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/divisionResponse")
-    public String division(
+    @RequestWrapper(localName = "substraction", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Substraction")
+    @ResponseWrapper(localName = "substractionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.SubstractionResponse")
+    @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/substractionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/substractionResponse")
+    public String substraction(
         @WebParam(name = "intA", targetNamespace = "")
         int intA,
         @WebParam(name = "intB", targetNamespace = "")
