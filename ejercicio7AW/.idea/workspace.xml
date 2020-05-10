@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ejercicio7" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93283291-8392-4ee0-95a0-ba428b7382cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ejercicio7AW_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/CalculadoraWS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculadora/servicioCalculadora.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio7/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/WSDLholaMaven-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/Addition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/AdditionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/CController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/CalculadoraWS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/CalculadoraWS_Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/DivisionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/Multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/MultiplicationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/NCController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/Substraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/SubstractionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/Addition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/AdditionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/DivisionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/Multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/MultiplicationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/Subtraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/jaxws/SubtractionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/CalculadoraWSApplication/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/AddResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/CalculatorSoap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/Divide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/DivideResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/Multiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/MultiplyResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/Subtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/SubtractResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Calculator/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/META-INF/wsdl/CalculadoraWS.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/META-INF/wsdl/CalculadoraWS_schema1.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/controllers/CalculadoraController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/NumberConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/NumberConversionSoapType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/NumberToDollars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/NumberToDollarsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/NumberToWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/NumberToWordsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/classes/numberConversion/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsdl/CalculadoraWS.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsdl/CalculadoraWS_schema1.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/Addition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/AdditionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/DivisionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/Multiplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/MultiplicationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/Subtraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsgen/CalculadoraWSApplication/jaxws/SubtractionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/AdditionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/AdditionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/CalculadoraWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/CalculadoraWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/CalculadoraWS_Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/CalculadoraWS_Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/DivisionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/DivisionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/MultiplicationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/MultiplicationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/Substraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Substraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/SubstractionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/SubstractionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/jaxws/stale/.41a8c55172674feb9a59d2ca1905d102facb626c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/AdditionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/AdditionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/CalculadoraWS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/CalculadoraWS_Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/CalculadoraWS_Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Division.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/DivisionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/DivisionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/MultiplicationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/MultiplicationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/Substraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/Substraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/SubstractionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/SubstractionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio7/target/wsgen/classes/CalculadoraWSApplication/package-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculadora/package-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio7AW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio7AW.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spark/template/velocity/VelocityTemplateEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spark/template/velocity/VelocityTemplateEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Path$Template.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Path$Template.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Path$Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Path$Web.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Path.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bjKEFn7t1oDw9dDrEBDFUeuEcW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejercicio7" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ejercicio7AW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93283291-8392-4ee0-95a0-ba428b7382cc" name="Default Changelist" comment="" />
+      <created>1589139948856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589139948856</updated>
+      <workItem from="1589139952885" duration="4400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1737" y="186" width="697" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589140191526">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state x="1737" y="186" width="697" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589140191526" />
+    <state x="1643" y="53" width="784" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1589142056769">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state x="1643" y="53" width="784" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589142056769" />
+    <state x="1560" y="277" width="945" height="221" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1" timestamp="1589142081034">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state x="1560" y="277" width="945" height="221" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589142081034" />
+    <state x="1797" y="206" width="669" height="254" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog" timestamp="1589142042967">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state x="1797" y="206" width="669" height="254" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589142042967" />
+    <state x="1823" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589141824361">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state x="1823" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589141824361" />
+    <state width="1314" height="181" key="GridCell.Tab.0.bottom" timestamp="1589144526375">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="181" key="GridCell.Tab.0.bottom/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589144526375" />
+    <state width="1314" height="181" key="GridCell.Tab.0.center" timestamp="1589144526375">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="181" key="GridCell.Tab.0.center/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589144526375" />
+    <state width="1314" height="181" key="GridCell.Tab.0.left" timestamp="1589144526375">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="181" key="GridCell.Tab.0.left/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589144526375" />
+    <state width="1314" height="181" key="GridCell.Tab.0.right" timestamp="1589144526375">
+      <screen x="1360" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="181" key="GridCell.Tab.0.right/0.27.1360.741/1360.0.1360.768@1360.0.1360.768" timestamp="1589144526375" />
+  </component>
+</project>
