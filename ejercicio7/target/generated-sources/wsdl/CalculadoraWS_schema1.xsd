@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://CalculadoraWSApplication/" xmlns:tns="http://CalculadoraWSApplication/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="addition" type="tns:addition"/>
+
+  <xs:element name="additionResponse" type="tns:additionResponse"/>
+
+  <xs:element name="division" type="tns:division"/>
+
+  <xs:element name="divisionResponse" type="tns:divisionResponse"/>
+
+  <xs:element name="multiplication" type="tns:multiplication"/>
+
+  <xs:element name="multiplicationResponse" type="tns:multiplicationResponse"/>
+
+  <xs:element name="substraction" type="tns:substraction"/>
+
+  <xs:element name="substractionResponse" type="tns:substractionResponse"/>
+
+  <xs:complexType name="multiplication">
+    <xs:sequence>
+      <xs:element name="intA" type="xs:int"/>
+      <xs:element name="intB" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="multiplicationResponse">
+    <xs:sequence>
+      <xs:element name="result" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="substraction">
+    <xs:sequence>
+      <xs:element name="intA" type="xs:int"/>
+      <xs:element name="intB" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="substractionResponse">
+    <xs:sequence>
+      <xs:element name="result" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="addition">
+    <xs:sequence>
+      <xs:element name="intA" type="xs:int"/>
+      <xs:element name="intB" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="additionResponse">
+    <xs:sequence>
+      <xs:element name="result" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="division">
+    <xs:sequence>
+      <xs:element name="intA" type="xs:int"/>
+      <xs:element name="intB" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="divisionResponse">
+    <xs:sequence>
+      <xs:element name="result" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
