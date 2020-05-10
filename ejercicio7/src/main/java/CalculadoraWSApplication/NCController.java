@@ -15,8 +15,8 @@ public class NCController {
             return "- "+new NumberConversion().getNumberConversionSoap().numberToWords(req.getUbiNum());
         }
         else {
-        req.setUbiNum(number);
-        return new NumberConversion().getNumberConversionSoap().numberToWords(req.getUbiNum());
+            req.setUbiNum(number);
+            return new NumberConversion().getNumberConversionSoap().numberToWords(req.getUbiNum());
         }
         
     }

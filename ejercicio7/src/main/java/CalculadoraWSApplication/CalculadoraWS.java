@@ -21,8 +21,14 @@ public class CalculadoraWS {
     @WebMethod(operationName="division")
     @WebResult(name="result")
     public String division (@WebParam(name="intA") int intA, @WebParam(name="intB") int intB){
-        int resultado = CController.division(intA, intB);
-        String res = NCController.convert(BigInteger.valueOf(resultado));
+        String res;
+        if(intB == 0){
+            res = "infinite";
+        }
+        else {
+            int resultado = CController.division(intA, intB);
+            res = NCController.convert(BigInteger.valueOf(resultado));
+        }
        return res;
     }
 
