@@ -33,13 +33,9 @@ public interface CalculadoraWS {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-<<<<<<< HEAD:ejercicio7AW/src/main/java/calculadora/CalculadoraWS.java
     @RequestWrapper(localName = "addition", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.Addition")
     @ResponseWrapper(localName = "additionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.AdditionResponse")
-=======
-    @RequestWrapper(localName = "addition", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Addition")
-    @ResponseWrapper(localName = "additionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.AdditionResponse")
->>>>>>> 6c9c8d5d0763b0d77c39971844dfca832673847d:ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/CalculadoraWS.java
+
     @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/additionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/additionResponse")
     public String addition(
         @WebParam(name = "intA", targetNamespace = "")
@@ -56,13 +52,8 @@ public interface CalculadoraWS {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-<<<<<<< HEAD:ejercicio7AW/src/main/java/calculadora/CalculadoraWS.java
     @RequestWrapper(localName = "division", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.Division")
     @ResponseWrapper(localName = "divisionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.DivisionResponse")
-=======
-    @RequestWrapper(localName = "division", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Division")
-    @ResponseWrapper(localName = "divisionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.DivisionResponse")
->>>>>>> 6c9c8d5d0763b0d77c39971844dfca832673847d:ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/CalculadoraWS.java
     @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/divisionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/divisionResponse")
     public String division(
         @WebParam(name = "intA", targetNamespace = "")
@@ -79,13 +70,8 @@ public interface CalculadoraWS {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-<<<<<<< HEAD:ejercicio7AW/src/main/java/calculadora/CalculadoraWS.java
     @RequestWrapper(localName = "multiplication", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.Multiplication")
     @ResponseWrapper(localName = "multiplicationResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.MultiplicationResponse")
-=======
-    @RequestWrapper(localName = "multiplication", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Multiplication")
-    @ResponseWrapper(localName = "multiplicationResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.MultiplicationResponse")
->>>>>>> 6c9c8d5d0763b0d77c39971844dfca832673847d:ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/CalculadoraWS.java
     @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/multiplicationRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/multiplicationResponse")
     public String multiplication(
         @WebParam(name = "intA", targetNamespace = "")
@@ -102,13 +88,8 @@ public interface CalculadoraWS {
      */
     @WebMethod
     @WebResult(name = "result", targetNamespace = "")
-<<<<<<< HEAD:ejercicio7AW/src/main/java/calculadora/CalculadoraWS.java
     @RequestWrapper(localName = "substraction", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.Substraction")
     @ResponseWrapper(localName = "substractionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "calculadora.SubstractionResponse")
-=======
-    @RequestWrapper(localName = "substraction", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.Substraction")
-    @ResponseWrapper(localName = "substractionResponse", targetNamespace = "http://CalculadoraWSApplication/", className = "CalculadoraWSApplication.SubstractionResponse")
->>>>>>> 6c9c8d5d0763b0d77c39971844dfca832673847d:ejercicio7/target/generated-sources/wsimport/CalculadoraWSApplication/CalculadoraWS.java
     @Action(input = "http://CalculadoraWSApplication/CalculadoraWS/substractionRequest", output = "http://CalculadoraWSApplication/CalculadoraWS/substractionResponse")
     public String substraction(
         @WebParam(name = "intA", targetNamespace = "")
