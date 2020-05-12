@@ -19,15 +19,15 @@ import util.Path;
  * @author cnval
  */
 public class MonitoreoControlador {
-    private static int contador=-1;
-    
+    private static String imagenSiguiente="0.jpg";
     public static Route getImagenesCamara = (Request req, Response response) -> {
         HashMap model = new HashMap();
         CamarasClient c=new CamarasClient();
-        contador = (contador%20)+1;
-        model.put("camara", c);
-		model.put("lastImage", contador+".jpg");
-        model.put("template", Path.Template.CAMARAS);
+        String imagen=c.getImages(imagenSiguiente);
+        model.put("img", imagen);
+        System.out.println(imagen);
+        imagenSiguiente=imagen;
+	model.put("template", Path.Template.CAMARAS);
         return new VelocityTemplateEngine().render(new ModelAndView(model, Path.Template.LAYOUT)); 
    
     };
