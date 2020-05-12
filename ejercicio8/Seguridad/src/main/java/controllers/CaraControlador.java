@@ -1,5 +1,6 @@
 package controllers;
 
+import alarma.*;
 import com.google.gson.Gson;
 import dao.CaraDAO;
 import models.Cara;
@@ -18,11 +19,10 @@ public class CaraControlador {
                 Cara cara = gson.fromJson(json,Cara.class);
                 CaraDAO caraDAO = new CaraDAO();
                 List<Cara> caras = caraDAO.getCara(cara);
-
                 if(!caras.isEmpty()){
                     try { // Call Web Service Operation
-                        com.mycompany.alarma.Alerta service = new com.mycompany.alarma.Alerta();
-                        com.mycompany.alarma.Alarma port = service.getAlarmaPort();
+                       Alerta service = new Alerta();
+                        Alarma port = service.getAlarmaPort();
                         // TODO initialize WS operation arguments here
                         java.lang.String img = cara.getImage();
                         port.alertar(img);
