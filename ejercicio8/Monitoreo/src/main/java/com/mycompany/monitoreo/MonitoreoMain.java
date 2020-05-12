@@ -5,7 +5,7 @@
  */
 package com.mycompany.monitoreo;
 
-import com.mycompany.monitoreo.Controlador.MonitoreoControlador;
+import com.mycompany.monitoreo.Controllers.MonitoreoControlador;
 import static spark.Spark.get;
 import static spark.Spark.port;
 import static spark.Spark.staticFileLocation;
