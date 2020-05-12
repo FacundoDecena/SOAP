@@ -11,7 +11,7 @@ public class CaraControlador {
     public static Route reconocimiento =
             (request, response) -> {
 
-                String json = request.queryParams("image");
+                String json = request.body();
                 Gson gson = new Gson();
                 Cara cara = gson.fromJson(json,Cara.class);
                 CaraDAO caraDAO = new CaraDAO();

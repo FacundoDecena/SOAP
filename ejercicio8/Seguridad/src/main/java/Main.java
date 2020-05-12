@@ -9,5 +9,4 @@ public class Main {
         port(4568);
         post(Path.Web.RECONOCIMIENTO, CaraControlador.reconocimiento);
     }
-
 }
