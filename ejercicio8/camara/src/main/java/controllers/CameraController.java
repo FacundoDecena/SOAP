@@ -18,6 +18,7 @@ public class CameraController {
         String msg = "{\"image\":\""+nextImg+"\"}";
         if (hasFace)
             post("http://localhost:4568/reconocimiento", msg);
+        
         return msg;
     };
 
