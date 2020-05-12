@@ -32,7 +32,7 @@ public class CamarasClient {
     public String getImages(String lastImage) {
         final String urlString="http://localhost:4567/api/video?lastImage="+lastImage;
         String imagen="";
-        
+
         try{
             URL url = new URL(urlString);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
