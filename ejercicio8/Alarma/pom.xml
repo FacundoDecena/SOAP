@@ -54,29 +54,32 @@
 
 </dependencies> 
 
+
 <build>
-    <plugins>
+  <plugins>
     <plugin>
-<groupId>org.jvnet.jax-ws-commons</groupId>
-<artifactId>jaxws-maven-plugin</artifactId>
-<version>2.2</version>
-<executions> <!-- WSDLs must be generated for each service. -->
-<execution> <id>generate-client-wsdl</id> <phase>process-classes</phase>
-<goals> <goal>wsgen</goal> </goals>
-<configuration>
-<sei>com.mycompany.alarma.Alarma</sei>
-<genWsdl>true</genWsdl>
-</configuration> </execution> <execution>
-<id>generate-proxies</id> <phase>process-classes</phase>
-<goals> <goal>wsimport</goal> </goals>
-<configuration>
-<wsdlDirectory>target/generated-sources/wsdl</wsdlDirectory>
-<destDir>target/wsgen/classes</destDir>
-<packageName>com.mycompany.alarma</packageName>
-<xnocompile>false</xnocompile> </configuration> </execution>
-</executions> 
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-shade-plugin</artifactId>
+      <version>3.1.0</version>
+      <executions>
+        <execution>
+          <phase>package</phase>
+          <goals>
+            <goal>shade</goal>
+          </goals>
+          <configuration>
+            <transformers>
+              <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                <manifestEntries>
+                  <Main-Class>com.mycompany.alarma.AlarmaMain</Main-Class>
+                </manifestEntries>
+              </transformer>
+            </transformers>
+          </configuration>
+        </execution>
+      </executions>
     </plugin>
-    </plugins>
+  </plugins>
 </build>
     
 </project>
