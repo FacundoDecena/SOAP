@@ -15,7 +15,7 @@ public class CameraController {
         boolean hasFace = getHasFace(nextImg);
         String msg = "{\"image\":\""+nextImg+"\"}";
         if (hasFace)
-            post("localhost:4568/reconocimiento", msg);
+            post("http://localhost:4568/reconocimiento", msg);
         return msg;
     };
 
