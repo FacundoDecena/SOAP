@@ -5,6 +5,7 @@
  */
 package com.mycompany.alarma;
 
+import java.awt.Toolkit;
 import javax.jws.Oneway;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -21,6 +22,6 @@ public class Alarma {
     @Oneway()
     public void alertar(@WebParam(name="img") String img){
         System.out.println("Alarma Activada, persona sospechosa: "+img);
-        
+        Toolkit.getDefaultToolkit().beep();
     }
 }

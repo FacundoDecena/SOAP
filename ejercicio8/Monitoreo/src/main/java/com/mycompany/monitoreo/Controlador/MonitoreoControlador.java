@@ -26,7 +26,7 @@ public class MonitoreoControlador {
         CamarasClient c=new CamarasClient();
         contador = (contador%20)+1;
         model.put("camara", c);
-        model.put("lastImage", contador);
+        model.put("lastImage", contador+".jpg");
         model.put("template", Path.Template.CAMARAS);
         return new VelocityTemplateEngine().render(new ModelAndView(model, Path.Template.LAYOUT)); 
    
